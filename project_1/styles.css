@@ -198,14 +198,23 @@ a.social:hover{
 	opacity: 1;
 }
 a.twitter {
-  background-image: url(../img/twitter.svg);
+  background-image: url(img/twitter.svg);
 }
 a.linkedin {
-  background-image: url(../img/linkedin.svg);
+  background-image: url(img/linkedin.svg);
 }
 a.github {
-  background-image: url(../img/github.svg);
+  background-image: url(img/github.svg);
 }
 .clearfix{
 	clear: both;
+}
+/*for the experience page*/
+.work img{
+	margin: 2em;
+}
+.work img:hover{
+	-moz-box-shadow: 0 0 25px #171819;
+	-webkit-box-shadow: 0 0 25px #171819;
+	box-shadow: 0 0 25px #171819;
 }
